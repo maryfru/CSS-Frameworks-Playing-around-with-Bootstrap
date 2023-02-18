@@ -18,7 +18,9 @@
         https://getbootstrap.com/docs/4.5/layout/overview/ -->
     <div class="container">
       <h1 class="display-1 text-center text-primary">Bootstrap Playground</h1>
-      <h2 class="display-4">Buttons</h2>
+      <h2 class="display-4">
+        Buttons <span class="badge badge-success badge-pill">New</span>
+      </h2>
 
       <!-- See link for more details about Buttons:
         https://getbootstrap.com/docs/4.5/components/buttons/ -->
@@ -34,7 +36,29 @@
       <button type="button" class="btn btn-success" disabled>
         Success Disabled
       </button>
-      <!-- See link for more details about Typography and Typography/Color:
+
+      <button class="btn btn-primary">
+        Updates <span class="badge badge-light">9</span>
+      </button>
+      <!-- See link for more details about Badges, Alerts and Button Groups:
+        https://getbootstrap.com/docs/4.5/components/badge/
+        https://getbootstrap.com/docs/4.5/components/alerts/
+        https://getbootstrap.com/docs/4.5/components/button-group/ -->
+      <h3>Button Groups</h3>
+      <div class="btn-group">
+        <button class="btn btn-warning">One</button>
+        <button class="btn btn-info">Two</button>
+        <button class="btn btn-warning">Three</button>
+      </div>
+      <h3>Alert</h3>
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <h4 class="alert-heading">Oh No!</h4>
+        Danger! You are about to end the world as we know it!
+        <button aria-label="Close" class="close" data-dismiss="alert">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <!-- See link for more details about Typography and Color:
         https://getbootstrap.com/docs/4.5/utilities/colors/
         https://getbootstrap.com/docs/4.5/content/typography/ -->
       <h2 class="display-4">Typography</h2>
